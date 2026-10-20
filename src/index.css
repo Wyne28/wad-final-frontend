@@ -1,0 +1,27 @@
+/* /src/index.css */
+
+@import "tailwindcss";
+
+:root {
+  font-family: Arial, sans-serif;
+  color: #0c4a6e;
+  background: #f0f9ff;
+
+  --primary: #0369a1;
+  --primary-hover: #075985;
+  --sky-light: #e0f2fe;
+  --surface: #ffffff;
+  --border: #bae6fd;
+  --text: #0c4a6e;
+  --muted: #475569;
+  --danger: #b91c1c;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+* {
+  box-sizing: border-box;
+}
